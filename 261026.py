@@ -12,7 +12,7 @@ while True:
         name = input('请输入姓名：')
         number = input('请输入电话：')
         dict1[name] = number
-        print('已添加姓名：', name)
+        print('已添加：', name)
     elif choice == '2':
         #空容器在 Python 里"假值"（bool({}) == False），not dict1 更简洁。
         if not dict1:
